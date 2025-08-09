@@ -2,174 +2,307 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Presentación - Harold Zambrano</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio - Harold Zambrano</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-
   <body>
-    <header class="hero-header">
-      <div class="container text-center">
-        <img
-          src="css/img/img1.jpg"
-          alt="Foto de Harold Zambrano"
-          class="rounded-circle mb-4"
-          style="width: 150px; height: 150px; border: 5px solid white"
-        />
-        <h1 class="display-3">¡Hola, soy Harold Zambrano!</h1>
-        <p class="lead">
-          Estudiante de Ingeniería de Sistemas | Técnico en Sistemas |
-          Desarrollador de Software
+    <!-- HERO -->
+    <section class="hero container">
+      <div>
+        <div class="portrait-wrap mb-4">
+          <img src="css/img/img1.jpg" alt="Foto Harold Zambrano" />
+        </div>
+        <h1 class="hero-title">
+          Hola, soy <span class="accent">Harold Zambrano</span>
+        </h1>
+        <p class="hero-info">
+          Estudiante de 9º semestre Ingeniería de Sistemas | Tecnico en Sistemas
+          | Desarrollador Web Full Stack junior
         </p>
-      </div>
-    </header>
-
-    <main class="container py-5">
-      <section id="sobremi" class="mb-5">
-        <h2 class="text-center mb-4">Sobre mí</h2>
-        <p class="text-light">
-          Soy Harold Denilson Zambrano Mesias, estudiante de noveno semestre de
-          Ingeniería de Sistemas en Unicesmag y Técnico en Sistemas desde 2017.
-          Durante mis prácticas profesionales en el Hospital San Rafael,
-          desarrollé competencias clave en soporte técnico, instalación y
-          mantenimiento de redes, atención a usuarios y resolución de
-          incidencias, destacándome por mi enfoque analítico y orientación al
-          servicio.
-        </p>
-        <p class="text-light">
-          Me especializo en desarrollo web y análisis de software, con
-          experiencia en tecnologías modernas como
-          <strong>Node.js, Angular y PostgreSQL</strong>, así como conocimientos
-          sólidos en <strong>Laravel, PHP</strong> y gestión de bases de datos.
-          Me caracteriza la capacidad de adaptarme rápidamente a nuevos entornos
-          tecnológicos, aportar soluciones innovadoras y trabajar bajo
+        <p class="hero-sub mb-4">
+          Soy Harold Denilson Zambrano Mesias, estudiante de 9º semestre en
+          Ingeniería de Sistemas en la Universidad CESMAG y Técnico en Sistemas.
+          Me especializo en desarrollo web con tecnologías como
+          <strong>Node.js, Angular, Laravel y PostgreSQL</strong>. Destaco por
+          adaptarme rápido a nuevos entornos, aportar soluciones innovadoras y
+          trabajar eficientemente en equipos multidisciplinarios bajo
           metodologías ágiles.
         </p>
-        <p class="text-light">
-          Cuento con habilidades blandas esenciales como la comunicación
-          efectiva, el trabajo colaborativo, la proactividad y el pensamiento
-          crítico. Estas cualidades me permiten integrarme con facilidad en
-          equipos multidisciplinarios y contribuir de manera significativa al
-          logro de objetivos. Fuera del ámbito profesional, practico baloncesto
-          desde hace más de 12 años, lo cual ha fortalecido en mí valores como
-          la disciplina, la constancia y el liderazgo.
-        </p>
-      </section>
 
-      <section class="mb-5">
-        <h2 class="text-center mb-4">Habilidades</h2>
-        <div class="row text-center">
-          <div class="col-md-3 mb-3">
-            <div class="card bg-dark text-light border-0 shadow-lg">
-              <div class="card-body">
-                <i class="fab fa-node-js fa-3x text-success mb-3"></i>
-                <h5 class="card-title">Node.js</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card bg-dark text-light border-0 shadow-lg">
-              <div class="card-body">
-                <i class="fab fa-angular fa-3x text-danger mb-3"></i>
-                <h5 class="card-title">Angular</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card bg-dark text-light border-0 shadow-lg">
-              <div class="card-body">
-                <i class="fas fa-database fa-3x text-primary mb-3"></i>
-                <h5 class="card-title">PostgreSQL</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card bg-dark text-light border-0 shadow-lg">
-              <div class="card-body">
-                <i class="fab fa-php fa-3x text-secondary mb-3"></i>
-                <h5 class="card-title">PHP</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="mb-5">
-        <h2 class="text-center mb-4">Proyectos Destacados</h2>
-        <div class="card bg-secondary text-white mb-3">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img
-                src="css/img/ParkEasy.png"
-                class="img-fluid rounded-start"
-                alt="Captura del proyecto ParkEasy"
-              />
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">ParkEasy</h5>
-                <p class="card-text">
-                  <strong>ParkEasy</strong> es un sistema web desarrollado como
-                  proyecto universitario utilizando
-                  <strong>Node.js, Angular y PostgreSQL</strong>. La aplicación
-                  permite gestionar el ingreso y salida de vehículos, registrar
-                  tarifas, administrar usuarios y generar reportes en tiempo
-                  real. Este proyecto refleja no solo mis conocimientos
-                  técnicos, sino también mi capacidad para integrar múltiples
-                  tecnologías en una solución práctica y funcional.
-                </p>
-                <a href="https://github.com/hdzambrano05/ParkEasy_Proyect.git" class="text-light" aria-label="GitHub">
-                  <i class="fab fa-github fa-2x"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="mb-5">
-        <h2 class="text-center mb-4">Redes Sociales</h2>
-        <div class="d-flex justify-content-center gap-4 social-icons">
-          <a
-            href="https://wa.me/+573236388183"
-            class="text-light"
-            aria-label="WhatsApp"
-          >
-            <i class="fab fa-whatsapp fa-2x"></i>
-          </a>
-          <a href="#" class="text-light" aria-label="Facebook">
-            <i class="fab fa-facebook fa-2x"></i>
-          </a>
-          <a href="#" class="text-light" aria-label="Instagram">
-            <i class="fab fa-instagram fa-2x"></i>
-          </a>
-          <a href="#" class="text-light" aria-label="GitHub">
-            <i class="fab fa-github fa-2x"></i>
-          </a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="bg-dark text-white py-4">
-      <div class="container text-center">
-        <p class="mb-0">
-          © 2025 Harold Zambrano. ¡Gracias por visitar mi presentación! 🎉
-        </p>
+        <a href="#proyectos" class="btn btn-primary me-3">Ver Proyectos</a>
+        <a href="#contacto" class="btn btn-outline-light">Contáctame</a>
       </div>
-    </footer>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section container">
+      <h2 class="section-title">Habilidades Técnicas</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="devicon-angularjs-plain colored"></i>
+          <span>Angular</span>
+          <p>
+            Creación de aplicaciones SPA rápidas, dinámicas y escalables con
+            arquitectura modular.
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-nodejs-plain colored"></i>
+          <span>Node.js</span>
+          <p>
+            Desarrollo backend eficiente y creación de APIs RESTful con
+            Express.js.
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-laravel-plain colored"></i>
+          <span>Laravel</span>
+          <p>
+            Aplicaciones web seguras, estructuradas y con código limpio en PHP
+            moderno.
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-postgresql-plain colored"></i>
+          <span>PostgreSQL</span>
+          <p>
+            Diseño y optimización de bases de datos relacionales y consultas
+            complejas.
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-bootstrap-plain colored"></i>
+          <span>Bootstrap</span>
+          <p>
+            Interfaces responsivas, modernas y adaptables para cualquier
+            dispositivo.
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-github-original colored"></i>
+          <span>Git & GitHub</span>
+          <p>
+            Control de versiones, manejo de ramas y colaboración en proyectos.
+          </p>
+        </div>
+      </div>
+
+      <!-- HABILIDADES BLANDAS -->
+      <h2 class="section-title mt-5">Habilidades Blandas</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i
+            class="bi bi-people-fill"
+            style="font-size: 3rem; color: var(--color-accent)"
+          ></i>
+          <span>Comunicación Efectiva</span>
+          <p>Capacidad para transmitir ideas claras y trabajar en equipo.</p>
+        </div>
+        <div class="skill-card">
+          <i
+            class="bi bi-lightning-fill"
+            style="font-size: 3rem; color: var(--color-accent)"
+          ></i>
+          <span>Proactividad</span>
+          <p>Iniciativa para anticipar problemas y proponer soluciones.</p>
+        </div>
+        <div class="skill-card">
+          <i
+            class="bi bi-people"
+            style="font-size: 3rem; color: var(--color-accent)"
+          ></i>
+          <span>Trabajo Colaborativo</span>
+          <p>Integración eficaz en equipos multidisciplinarios.</p>
+        </div>
+        <div class="skill-card">
+          <i
+            class="bi bi-lightbulb"
+            style="font-size: 3rem; color: var(--color-accent)"
+          ></i>
+          <span>Pensamiento Crítico</span>
+          <p>Análisis y resolución eficiente de problemas complejos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section container">
+      <h2 class="section-title">Servicios</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="bi bi-code-slash"></i>
+            <h5>Desarrollo Web</h5>
+            <p>
+              Creación de aplicaciones y sitios web modernos, rápidos,
+              accesibles y optimizados para SEO.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="bi bi-layers"></i>
+            <h5>Integración de APIs</h5>
+            <p>
+              Conexión de sistemas externos, pasarelas de pago y servicios en
+              tiempo real para soluciones completas.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="bi bi-shield-lock"></i>
+            <h5>Seguridad y Optimización</h5>
+            <p>
+              Implementación de buenas prácticas, encriptación y optimización
+              para alto rendimiento y confiabilidad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA ACADÉMICA -->
+    <section id="experiencia" class="section container">
+      <h2 class="section-title">Formación Académica</h2>
+      <ul class="experience-list">
+        <li>
+          <div class="experience-title">Técnico en Sistemas</div>
+          <div class="experience-subtitle">
+            Servicio Nacional de Aprendizaje (SENA) | Título obtenido
+          </div>
+          <div class="experience-desc">
+            Formación técnica integral en análisis, diseño, desarrollo,
+            implementación y mantenimiento de sistemas de información. Incluye
+            programación, administración de bases de datos, redes, soporte
+            técnico y seguridad informática. Capacitación orientada a la
+            solución práctica de problemas empresariales mediante tecnologías de
+            la información.
+          </div>
+        </li>
+        <li>
+          <div class="experience-title">Ingeniería de Sistemas</div>
+          <div class="experience-subtitle">
+            Universidad CESMAG | Actualmente cursando
+          </div>
+          <div class="experience-desc">
+            Estudios enfocados en el desarrollo de software, arquitectura de
+            sistemas, inteligencia artificial, ingeniería de software y gestión
+            de proyectos tecnológicos. Formación orientada a la innovación
+            tecnológica y transformación digital empresarial.
+          </div>
+        </li>
+        <li>
+          <div class="experience-title">Cursos Complementarios</div>
+          <div class="experience-subtitle">
+            Plataformas Online y Presenciales
+          </div>
+          <div class="experience-desc">
+            Certificaciones en desarrollo frontend con Angular, backend con
+            Node.js, y manejo de bases de datos PostgreSQL y MySQL.
+            Participación en talleres de metodologías ágiles, DevOps y seguridad
+            informática.
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section container">
+      <h2 class="section-title">Proyectos Destacados</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-5">
+          <article class="project-card">
+            <div class="project-media">
+              <img src="css/img/ParkEasy.png" alt="Proyecto ParkEasy" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">ParkEasy</h3>
+              <p class="project-desc">
+                Aplicación web innovadora para la búsqueda y reserva de espacios
+                de estacionamiento en tiempo real. Integra mapas interactivos y
+                opciones de pago en línea para facilitar la experiencia del
+                usuario.
+              </p>
+              <p class="project-tech">
+                <strong>Tecnologías:</strong> Angular, Node.js, PostgreSQL,
+                Bootstrap, APIs de Google Maps, Stripe
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://demo.parkeasy.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ver demo ParkEasy"
+                  >Ver Demo</a
+                >
+                <a
+                  href="https://github.com/haroldz/park-easy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Código fuente ParkEasy"
+                  >Código Fuente</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- Aquí puedes agregar más proyectos con la misma estructura -->
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section text-center container">
+      <h2 class="section-title">Contáctame</h2>
+      <p>
+        Estoy abierto a nuevas oportunidades, colaboraciones y proyectos
+        interesantes. ¡No dudes en escribirme!
+      </p>
+
+      <div class="d-flex justify-content-center gap-3 mt-4">
+        <a
+          href="https://wa.me/573001112233"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-social"
+          aria-label="WhatsApp"
+          ><i class="bi bi-whatsapp"></i
+        ></a>
+        <a
+          href="https://github.com/haroldz"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-social"
+          aria-label="GitHub"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a
+          href="https://linkedin.com/in/haroldz"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-social"
+          aria-label="LinkedIn"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      &copy; 2025 Harold Zambrano - Todos los derechos reservados
+    </footer>
   </body>
 </html>
